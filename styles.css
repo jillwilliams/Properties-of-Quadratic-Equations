@@ -8,11 +8,42 @@ body {
 }
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 h2 {
     font-size: 1.5rem;
 }
+#img1, #img2, #img3, #img4 {
+    width: 30%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 1px black solid;
+    outline: 1px white solid;
+}
+#myBtn {
+    width: 10%;
+    height: auto;
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 1rem;
+    font-family: "Yeon Sung", cursive;
+    border: 1px black solid;
+    outline: 1px yellow solid;
+}
+#demo, #demo2, #demo3 {
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1rem;
+    font-family: "Yeon Sung", cursive;
+    background-image: linear-gradient(orange,yellow);
+    border: 1px black solid;
+    outline: 1px yellow solid;
+}
 footer {
     text-align: center;
     font-size: 1rem;
+    margin-top: 15px;
 }
